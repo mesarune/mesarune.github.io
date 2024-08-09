@@ -1,4 +1,9 @@
+html, body {
+  height: 100%; //親要素の高さを最大化
+}
+
 #calculator {
+  hight: 100%; //親要素の高さに合わせて最大化
   display: flex;
   flex-direction: column;
   align-items: center;
